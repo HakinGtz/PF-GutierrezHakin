@@ -1,0 +1,59 @@
+.container {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 0.1fr;
+    row-gap: 0.2rem;
+    grid-template-areas:
+        "header header header header"
+        "menu sec1 sec1 aside"
+        "not1 not1 not1 not1"
+        "not2 not2 not2 not2"
+        "not3 not3 not3 not3"
+        "footer footer footer footer";
+}
+.containerCont {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
+    row-gap: 0.2rem;
+    grid-template-areas:
+        "header header header header"
+        "menu sec1 sec1 aside"
+        "not1 not1 not1 not1"
+        "footer footer footer footer";
+}
+.containerNosotros {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
+    row-gap: 0.2rem;
+    grid-template-areas:
+        "header header header header"
+        "menu sec1 sec1 aside"
+        "infoNosotros infoNosotros infoNosotros infoNosotros"
+        "footer footer footer footer";
+}
+.containerProductos{
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 2.5fr 0.1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
+    row-gap: 0.2rem;
+    grid-template-areas:
+        "header header header header"
+        "menu secServicios secServicios aside"
+        "menu secServicios secServicios aside"
+        "footer footer footer footer";
+}
+

@@ -1,0 +1,145 @@
+@media only screen and (max-width:780px){
+    .container {
+        grid-template-columns: 0.5fr 3fr;
+        grid-template-rows: 0.2fr 1fr 1fr 2fr 2fr 2fr 1fr auto;
+        row-gap: 2rem;
+        grid-template-areas:
+            "header header"
+            "menu menu"
+            "sec1 sec1"
+            "aside aside"
+            "not1 not1"
+            "not2 not2"
+            "not3 not3"
+            "footer footer";
+    }
+    .containerNosotros {
+        grid-template-columns: 0.5fr 3fr;
+        grid-template-rows: 0.2fr 1fr 1fr 1fr 0.1fr;
+        grid-template-areas:
+            "header header"
+            "menu sec1"
+            "aside aside"
+            "infoNosotros infoNosotros"
+            "footer footer";
+            margin: 0 auto;
+    }
+    .menu{
+        height: 15rem;
+        width: 10rem;
+        padding: 5px;
+        button{
+            font-size: 0.7rem;
+            height: 3rem;
+        }  
+    }
+    .containerProductos{
+        grid-template-columns: 0.5fr 3fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "header header"
+            "menu menu"
+            "secServicios secServicios"
+            "aside aside"
+            "footer footer";
+    }
+    .containerCont {
+        grid-template-columns: 0.5fr 3fr;
+        grid-template-rows: 0.2fr 1fr 1fr 0.1fr;
+        row-gap: 0.2rem;
+        grid-template-areas:
+            "header header"
+            "menu sec1"
+            "aside aside"
+            "not1 not1"
+            "footer footer";
+    }
+    body{
+        background-color: rgb(92, 82, 82);
+    }
+    .aside{
+        width: auto;
+        img{ 
+            width: auto;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    }
+    .sec1{
+        width: 100%;
+        align-items: center;
+        margin: 0.1rem;
+        padding: 0.1rem;
+        display: flex;
+        padding: 1.2rem;
+        flex-direction: column;
+        justify-content: space-around;
+        h2{
+            color: #fff;
+        }
+    }
+    .colorr h5{
+        font-size: 0.1rem;
+    }
+    .catalogo{
+        div{
+            img{
+                align-items: flex-start;
+                width: 15rem;
+             }
+            }
+    }
+    .nota1 {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+    }
+    .not2{
+        align-items: center;
+    }
+    .nota2{
+        height: auto;
+        width: 90%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        flex-direction: column;
+        justify-content: center;   
+        p{
+            font-size:1rem;
+        }     
+    }
+        
+            
+    .nota3{
+        h3{
+            font-size: 1rem;
+        }
+        height: auto;
+        width: 90%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        flex-direction: column;
+        p{
+            font-size: 1rem;
+        }
+    }
+        
+    .prod img{
+        align-items: center;
+        width: 10rem;
+    }
+}

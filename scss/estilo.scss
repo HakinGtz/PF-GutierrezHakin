@@ -1,0 +1,32 @@
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@mixin flex-column-spacearound
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+}
+@import "general";
+@import "mediaLg";
+@import "mediaMd";
+@import "mediaTab";
+@import "mediaSm";
+@import "404";
